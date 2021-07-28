@@ -1,0 +1,39 @@
+.product_card{
+    display: flex;
+    flex-direction: column;
+    max-height: 450px;
+    min-width: 100px;
+    flex:1;
+    align-items: center;
+    background-color: white;
+    z-index: 15;
+    padding: 20px;
+    margin: 10px;
+}
+
+.product_price{
+    margin-top: 15px;
+}
+
+.description{
+    height: 100px;
+    margin-bottom: 15px;
+}
+
+.product_card > img{
+   max-height: 150px; 
+   width: 100%;
+   object-fit: contain;
+   padding: 10px;
+   margin-bottom: 15px;
+   margin-top: 15px;
+
+}
+
+.product_btn{
+    background-color: #f0c14b;
+    border: 1px solid black;
+    padding-left: 8px;
+    padding-right: 8px;
+
+}
